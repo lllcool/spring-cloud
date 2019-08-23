@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://192.168.2.211:8080/kakusilong/spring-config-demo.git
+          searchPaths: my-sample-config
